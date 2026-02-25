@@ -9,7 +9,7 @@ return;
 }
 
 var handler = PaystackPop.setup({
-key: 'YOUR_PUBLIC_KEY',
+key: 'pk_live_286cc49774695e4f691de3d8eab1d44aa191a7ac',
 email: email,
 amount: amount,
 currency: "GHS",
