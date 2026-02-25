@@ -1,0 +1,128 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0a0f1c;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#111827;
+}
+
+nav a{
+color:#00f7ff;
+margin:0 15px;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+}
+
+.sectors{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:60px 20px;
+flex-wrap:wrap;
+}
+
+.sector-card{
+background:#1f2937;
+padding:30px;
+width:280px;
+border-radius:10px;
+text-align:center;
+}
+
+.sector-card a{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#00f7ff;
+color:black;
+text-decoration:none;
+border-radius:5px;
+}
+
+.about{
+padding:60px 20px;
+text-align:center;
+}
+
+.team{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.member img{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.sector-page{
+padding:60px 20px;
+text-align:center;
+}
+
+video{
+width:70%;
+margin:30px 0;
+border-radius:10px;
+}
+
+.payment-box{
+background:#1f2937;
+padding:30px;
+border-radius:10px;
+max-width:400px;
+margin:0 auto;
+}
+
+.payment-box input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:5px;
+border:none;
+}
+
+.payment-box button{
+padding:10px 20px;
+background:#00f7ff;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+
+.unlock-buttons{
+display:none;
+flex-direction:column;
+gap:10px;
+margin-top:20px;
+}
+
+.unlock-buttons a{
+background:#00f7ff;
+color:black;
+padding:10px;
+text-decoration:none;
+border-radius:5px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111827;
+margin-top:50px;
+}
