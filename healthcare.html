@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthcare & AI - PulseX</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://js.paystack.co/v1/inline.js"></script>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="back">← Back Home</a>
+</header>
+
+<section class="sector-page">
+    <h1>Healthcare & Artificial Intelligence</h1>
+    <p>PulseX Health integrates AI diagnostics and intelligent systems to assist patients and provide digital medical support.</p>
+
+    <video controls>
+        <source src="assets/health.mp4" type="video/mp4">
+    </video>
+
+    <div class="payment-box">
+        <h3>Access PulseX HealthBot</h3>
+        <p>Consultation fee required before chat access.</p>
+
+        <input type="email" id="email-health" placeholder="Enter Email">
+        <input type="number" id="amount-health" placeholder="Enter Amount (GHS)">
+        <button onclick="payNow('health')">Pay & Unlock</button>
+
+        <div id="unlock-health" class="unlock-buttons">
+            <a href="https://t.me/YOUR_TELEGRAM_BOT" target="_blank">Chat on Telegram</a>
+            <a href="https://wa.me/233XXXXXXXXX" target="_blank">Chat on WhatsApp</a>
+        </div>
+    </div>
+</section>
+
+<script src="js/payment.js"></script>
+</body>
+</html>
